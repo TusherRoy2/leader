@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap);
+
+/* CODE START */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background: #000;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* MAIN CODE START */
+
+.app {
+  width: 100%;
+  height: auto;
+  background-image: url("../images/leader_website/leader_0006_Background-copy.png") !important;
+  background-position: top center;
+  background-size: contain;
+}
+.header {
+  width: 95%;
+  margin: auto;
+}
+.header .logo {
+}
+.header .logo img {
+  width: 95%;
+  margin: auto;
+  padding: 4rem 0;
+}
+.cnt_box {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+.cnt_box video {
+    width: 92%;
+    margin: auto;
+    display: block;
+    padding: 4rem 0;
+}
+.cnt_box h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 3rem 0;
+}
+.cnt_box .social {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+.cnt_box .social > div > a > img{
+    width: 8rem;
+    cursor: pointer;
+}
+.leaders {
+    width: 80%;
+    margin: 10rem auto 0;
+    padding: 0 0 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5rem;
+}
+.leaders .ldr {
+}
